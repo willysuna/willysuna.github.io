@@ -1,5 +1,0 @@
-const pronouns_age=document.getElementById("pronouns_age");pronouns_age.innerText+=` ${
-dayjs().from(dayjs("2003-07-30"),true).split(" ")[0]
-}`;function random(arr){return arr[Math.floor(Math.random()*arr.length)];}
-const descriptors=["developer","programmer","musician","editor","designer","artist","person","human","friend",];function setDescriptor(){let descriptor=random(descriptors);const elem=document.getElementById("descriptor");elem.innerText=` ${descriptor}`;}
-setDescriptor();setInterval(setDescriptor,1000*5);
